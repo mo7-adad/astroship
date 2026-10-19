@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astroship</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="bg-white text-slate-800" style="font-family: 'Inter', sans-serif;">
+
+    <header class="max-w-6xl mx-auto px-5 py-5 flex items-center justify-between">
+        <a href="index.html" class="text-lg">
+            <span class="font-bold text-slate-800">Astro</span><span class="text-slate-500">ship</span>
+        </a>
+
+        <nav class="hidden md:flex gap-8 text-sm text-gray-600">
+            <a href="#features" class="hover:text-gray-900">Features</a>
+            <a href="#" class="hover:text-gray-900">Pricing</a>
+            <a href="#" class="hover:text-gray-900">About</a>
+            <a href="#" class="hover:text-gray-900">Blog</a>
+            <a href="#contact" class="hover:text-gray-900">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-4 text-sm">
+            <a href="#" class="text-gray-700 hover:text-gray-900">Log in</a>
+            <a href="#" class="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Sign up</a>
+        </div>
+    </header>
+
+    <section class="max-w-6xl mx-auto px-5 py-10 md:py-16 grid md:grid-cols-2 gap-10 items-center">
+        <div>
+            <h1 class="text-5xl lg:text-6xl font-extrabold leading-tight text-black" style="font-family: 'Bricolage Grotesque', sans-serif;">
+                Marketing website done with Astro
+            </h1>
+            <p class="text-lg mt-4 text-slate-600 max-w-xl">
+                Astroship is a starter template for startups, marketing websites &amp; landing pages. Built with Astro.build and TailwindCSS. You can quickly create any website with this starter.
+            </p>
+            <div class="mt-6 flex flex-col sm:flex-row gap-3">
+                <a href="#" class="flex items-center justify-center gap-2 bg-black text-white px-6 py-3 rounded hover:bg-gray-800">
+                    <i class="bi bi-download"></i> Download for Free
+                </a>
+                <a href="#" class="flex items-center justify-center gap-2 border-2 border-black px-6 py-3 rounded hover:bg-gray-100">
+                    <i class="bi bi-github"></i> GitHub Repo
+                </a>
+            </div>
+        </div>
+        <div>
+            <img src="images/hero.webp" alt="Astronaut in the air" class="w-full max-w-md mx-auto">
+        </div>
+    </section>
+
+    <section id="features" class="max-w-6xl mx-auto px-5 mt-16">
+        <h2 class="text-4xl lg:text-5xl font-bold text-black" style="font-family: 'Bricolage Grotesque', sans-serif;">
+            Everything you need to start a website
+        </h2>
+        <p class="text-lg mt-4 text-slate-600">
+            Astro comes batteries included. It takes the best parts of state-of-the-art tools and adds its own innovations.
+        </p>
+
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10 mt-16">
+            <div class="flex gap-4">
+                <div class="w-8 h-8 shrink-0 rounded-full bg-black text-white flex items-center justify-center">
+                    <i class="bi bi-boxes text-sm"></i>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg">Bring Your Own Framework</h3>
+                    <p class="text-slate-500 mt-2 leading-relaxed">Build your site using React, Svelte, Vue, Preact, web components, or just plain ol' HTML + JavaScript.</p>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <div class="w-8 h-8 shrink-0 rounded-full bg-black text-white flex items-center justify-center">
+                    <i class="bi bi-filetype-html text-sm"></i>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg">100% Static HTML, No JS</h3>
+                    <p class="text-slate-500 mt-2 leading-relaxed">Astro renders your entire page to static HTML, removing all JavaScript from your final build by default.</p>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <div class="w-8 h-8 shrink-0 rounded-full bg-black text-white flex items-center justify-center">
+                    <i class="bi bi-lightning-charge text-sm"></i>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg">On-Demand Components</h3>
+                    <p class="text-slate-500 mt-2 leading-relaxed">Need some JS? Astro can automatically hydrate interactive components when they become visible on the page.</p>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <div class="w-8 h-8 shrink-0 rounded-full bg-black text-white flex items-center justify-center">
+                    <i class="bi bi-plug text-sm"></i>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg">Broad Integration</h3>
+                    <p class="text-slate-500 mt-2 leading-relaxed">Astro supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.</p>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <div class="w-8 h-8 shrink-0 rounded-full bg-black text-white flex items-center justify-center">
+                    <i class="bi bi-search text-sm"></i>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg">SEO Enabled</h3>
+                    <p class="text-slate-500 mt-2 leading-relaxed">Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!</p>
+                </div>
+            </div>
+            <div class="flex gap-4">
+                <div class="w-8 h-8 shrink-0 rounded-full bg-black text-white flex items-center justify-center">
+                    <i class="bi bi-people text-sm"></i>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg">Community</h3>
+                    <p class="text-slate-500 mt-2 leading-relaxed">Astro is an open source project powered by hundreds of contributors making thousands of individual contributions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-5 mt-24 text-center">
+        <h2 class="text-slate-500">Works with your technologies</h2>
+        <div class="flex flex-wrap justify-center gap-10 md:gap-16 mt-10">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/astro.svg" alt="Astro" class="w-9 h-9">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/tailwindcss.svg" alt="Tailwind CSS" class="w-9 h-9">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/netlify.svg" alt="Netlify" class="w-9 h-9">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/react.svg" alt="React" class="w-9 h-9">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/github.svg" alt="GitHub" class="w-9 h-9">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@11.0.0/icons/vercel.svg" alt="Vercel" class="w-9 h-9">
+        </div>
+    </section>
+
+    <section id="contact" class="max-w-6xl mx-auto px-5 mt-24">
+        <div class="bg-black text-white rounded-lg py-14 px-6 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold" style="font-family: 'Bricolage Grotesque', sans-serif;">Build faster websites.</h2>
+            <p class="text-slate-400 mt-4 text-lg">Pull content from anywhere and serve it fast with Astro's next-gen island architecture.</p>
+            <a href="#" class="inline-block mt-6 bg-white text-black px-6 py-3 rounded hover:bg-gray-200">Get Started</a>
+        </div>
+    </section>
+
+    <footer class="my-16 text-center text-sm text-slate-500">
+        <p>Copyright © 2026 Astroship. All rights reserved.</p>
+        <p class="mt-1">Made by <a href="#" class="hover:underline">Web3Templates</a></p>
+    </footer>
+
+</body>
+</html>
